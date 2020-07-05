@@ -1,0 +1,30 @@
+{
+  "$id": "36292078",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Answers - Professionals",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "c_activeInAnswers",
+        "searchBool": "TRUE"
+      },
+      {
+        "fieldId": "c_type",
+        "filterOption": {
+          "choice": [
+            "PROFESSIONAL"
+          ],
+          "type": "IS"
+        }
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "yext/location"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$id": "36297477",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Answers - Locations",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "c_activeInAnswers",
+        "searchBool": "TRUE"
+      },
+      {
+        "fieldId": "c_type",
+        "filterOption": {
+          "choice": [
+            "BRANCH",
+            "ATM"
+          ],
+          "type": "IS"
+        }
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "yext/location",
+          "yext/atm"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}

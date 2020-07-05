@@ -1,0 +1,56 @@
+{
+  "$id": "Agent1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_activeInAnswers": true,
+    "c_primaryCTA": {
+      "label": "Visit Page",
+      "link": "https://www.yext.com",
+      "linkType": "URL"
+    },
+    "c_professionalHeadshot": {
+      "height": 370,
+      "thumbnails": [
+        {
+          "height": 197,
+          "url": "https://a.mktgcdn.com/p/-UqtWBGjHC2rLcKoQDWMn0IgxIdML34svP6UYYRPB_M/196x197.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/-UqtWBGjHC2rLcKoQDWMn0IgxIdML34svP6UYYRPB_M/368x370.png",
+      "width": 368
+    },
+    "c_relatedFAQs": [
+      "FAQ1"
+    ],
+    "c_secondaryCTA": {
+      "label": "Call Now",
+      "link": "+1[[mainPhone]]",
+      "linkType": "PHONE"
+    },
+    "c_type": "PROFESSIONAL",
+    "yext/address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "1 Madison Ave",
+      "postalCode": "10010",
+      "region": "NY"
+    },
+    "yext/addressHidden": false,
+    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "yext/landingPageUrl": "https://www.yext.com",
+    "yext/languages": [
+      "French"
+    ],
+    "yext/mainPhone": "+17574060122",
+    "yext/name": "Sam Jones",
+    "yext/timezone": "America/New_York",
+    "yext/websiteUrl": {
+      "displayUrl": "https://www.yext.com",
+      "preferDisplayUrl": false,
+      "url": "https://www.yext.com"
+    }
+  },
+  "entityType": "yext/location",
+  "labels": []
+}

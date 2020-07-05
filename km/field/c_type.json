@@ -1,0 +1,26 @@
+{
+  "$id": "c_type",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Type",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "optionType": {
+      "option": [
+        {
+          "displayName": "Branch",
+          "textValue": "BRANCH"
+        },
+        {
+          "displayName": "ATM",
+          "textValue": "ATM"
+        },
+        {
+          "displayName": "Professional",
+          "textValue": "PROFESSIONAL"
+        }
+      ]
+    }
+  },
+  "typeId": "yext/option"
+}
