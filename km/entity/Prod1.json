@@ -5,35 +5,25 @@
     "c_activeInAnswers": true,
     "c_photo": {
       "image": {
-        "height": 1112,
+        "height": 450,
+        "sourceUrl": "https://a.mktgcdn.com/p/kRj3Xqmt-dTAq-r-gAcQ6nlePU9rE4E5zOBEu27EMn0/450x450.png",
         "thumbnails": [
           {
-            "height": 732,
-            "url": "http://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/619x732.png",
-            "width": 619
-          },
-          {
-            "height": 450,
-            "url": "http://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/380x450.png",
-            "width": 380
-          },
-          {
-            "height": 231,
-            "url": "http://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/196x231.png",
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/kRj3Xqmt-dTAq-r-gAcQ6nlePU9rE4E5zOBEu27EMn0/196x196.png",
             "width": 196
           }
         ],
-        "url": "http://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/940x1112.png",
-        "width": 940
+        "url": "https://a.mktgcdn.com/p/kRj3Xqmt-dTAq-r-gAcQ6nlePU9rE4E5zOBEu27EMn0/450x450.png",
+        "width": 450
       }
     },
-    "c_price": "15",
     "c_primaryCTA": {
       "label": "Visit Page",
       "link": "https://www.yext.com",
       "linkType": "URL"
     },
-    "c_productCategory": "Yext Answers",
+    "c_productCategory": "Checking",
     "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
     "yext/landingPageUrl": "https://www.yext.com",
     "yext/name": "Checking Account"

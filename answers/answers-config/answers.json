@@ -40,15 +40,11 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
+        "builtin.location": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
         "c_department": {
-          "textSearch": true
-        },
-        "c_jobCity": {
-          "nlpFilter": true,
-          "textSearch": true
-        },
-        "c_jobState": {
-          "nlpFilter": true,
           "textSearch": true
         },
         "employmentType": {
