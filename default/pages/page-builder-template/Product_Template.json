@@ -1,8 +1,8 @@
 {
-  "$id": "Professional Template",
+  "$id": "Product_Template",
   "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
   "PageSetType": "TEMPLATE",
-  "EntityTypeName": "location",
+  "EntityTypeName": "ce_product",
   "PageSetConfig": {
     "ContentMapping": {
       "ModuleMappings": [
@@ -92,49 +92,12 @@
               "InputType": "",
               "Sink": "link6Url",
               "StringValue": "#"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "answersExperience",
-              "SubparameterContentMapEntries": [
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "configurationLabel",
-                  "StringValue": "PRODUCTION"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "searchResultsPageUrl",
-                  "StringValue": ""
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "sdkVersion",
-                  "StringValue": "1"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "placeholderText",
-                  "StringValue": "Search..."
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "autocompletePromptHeading",
-                  "StringValue": "You can ask your brand:"
-                }
-              ]
             }
           ],
           "DefaultScss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "u9D7LCPfYU",
+          "ModuleId": "99rl4kWbJv",
           "Scss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n"
         },
         {
@@ -155,7 +118,7 @@
           "DefaultScss": ".module-announcement-bar {\n\tpadding: 0;\n}\n\n.module-announcement-bar a {\n\tflex-grow: 1;\n\ttext-align: center;\n\tpadding: 7px 5px;\n}\n\n// Override the background color below\n.module-announcement-bar .btn {\n    // background-color: gray;\n\tborder-radius: 0px;\n\tword-wrap: break-word;\n\twhite-space: normal;\n\tborder: 0px;\n\tmargin: 0px;\n\tbox-shadow: none;\n}",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "JJzWqzmfBv",
+          "ModuleId": "uHrY02FbuU",
           "Scss": ".module-announcement-bar {\n\tpadding: 0;\n}\n\n.module-announcement-bar a {\n\tflex-grow: 1;\n\ttext-align: center;\n\tpadding: 7px 5px;\n}\n\n// Override the background color below\n.module-announcement-bar .btn {\n    // background-color: gray;\n\tborder-radius: 0px;\n\tword-wrap: break-word;\n\twhite-space: normal;\n\tborder: 0px;\n\tmargin: 0px;\n\tbox-shadow: none;\n}"
         },
         {
@@ -207,112 +170,8 @@
           "DefaultScss": "// Choose the color overlay on the image\n$overlay-color: transparentize(black, 0.4);\n$font-color: white;\n\n.image-outer-container {\n    background-color: #212529;\n    background-size: cover;\n    background-position: center center;\n    background-repeat: no-repeat;\n\n    .image-overlay {\n        padding: 4rem 0;\n        color: $font-color;\n        \u0026h1,h2,h3 {\n            color: $font-color;\n        }\n        text-align: center;\n        background-color: $overlay-color;\n\n        .image-inner-container {\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n\n            .headline {\n            }\n\n            .paragraph {\n                width: 100%;\n            }\n\n            .ctas {\n                a {\n                    margin-bottom: 0.5rem;\n\n                    \u0026:not(:last-child) {\n                        margin-right: 0.5rem;\n                    }\n\n                    \u0026.primary-cta {\n\n                    }\n\n                    \u0026.secondary-cta {\n\n                    }\n                }\n            }\n        }\n    }\n}\n",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "9HrWdzQXlU",
+          "ModuleId": "uHDYx-c89R",
           "Scss": "// Choose the color overlay on the image\n$overlay-color: transparentize(black, 0.4);\n$font-color: white;\n\n.image-outer-container {\n    background-color: #212529;\n    background-size: cover;\n    background-position: center center;\n    background-repeat: no-repeat;\n\n    .image-overlay {\n        padding: 4rem 0;\n        color: $font-color;\n        \u0026h1,h2,h3 {\n            color: $font-color;\n        }\n        text-align: center;\n        background-color: $overlay-color;\n\n        .image-inner-container {\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n\n            .headline {\n            }\n\n            .paragraph {\n                width: 100%;\n                margin-bottom: 1rem;\n            }\n\n            .ctas {\n                a {\n                    margin-bottom: 0.5rem;\n\n                    \u0026:not(:last-child) {\n                        margin-right: 0.5rem;\n                    }\n\n                    \u0026.primary-cta {\n\n                    }\n\n                    \u0026.secondary-cta {\n\n                    }\n                }\n            }\n        }\n    }\n}\n"
-        },
-        {
-          "ContentMapEntries": [
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "name"
-              ],
-              "Sink": "headline"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "CONSTANT",
-              "Sink": "infoColumnHeader",
-              "StringValue": "Office Info"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "name"
-              ],
-              "Sink": "locationName"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "address"
-              ],
-              "Sink": "address"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "mainPhone"
-              ],
-              "Sink": "phone"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "yextDisplayCoordinate"
-              ],
-              "Sink": "displayCoordinate"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "getDirectionsText",
-              "StringValue": "Get Directions"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "yextRoutableCoordinate"
-              ],
-              "Sink": "routableCoordinate"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "ctaText"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "ctaURL",
-              "StringValue": "#"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "CONSTANT",
-              "Sink": "hoursColumnHeader",
-              "StringValue": "Office Hours"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "hours"
-              ],
-              "Sink": "hours"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "hoursColumnHeader2"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "hours2"
-            }
-          ],
-          "DefaultScss": "padding: 2rem 0px;\n$spacer: 1rem;\n\n.location-name {\n  font-weight: bold;\n}\n\n//displays phonenumber as button on smaller devices\n.phone-link {\n  @media (min-width: 768px) {\n    display: none;\n  }\n}\n\n.phone-text {\n  @media (max-width: 768px) {\n    display: none;\n  }\n}\n\n.arrow-img {\n    transform: rotate(-180deg);\n    margin-bottom: 10px;\n}\n\n.collapsed .arrow-img {\n    transform: rotate(0deg);\n    margin-bottom: 0px;\n}\n\n.info-header {\n\n}\n\n.hours-header {\n\n}\n\n.primary-open-today {\n\n}\n\n.secondary-hours-header {\n    margin-top: $spacer;\n}\n\n.secondary-open-today {\n    font-size: 16px;\n    text-decoration: none;\n    color: inherit;\n}\n\n.arrow-img {\n    margin-left: 0.5rem;\n    padding-bottom: 5px;\n}\n\n.ctas {\n  margin-top: 1rem;\n\n  .btn {\n    @media (min-width: 768px) {\n      margin-bottom: 0.25rem;\n\n      \u0026:not(:last-child) {\n        margin-right: 0.25rem;\n      }\n    }\n    @media (max-width: 768px) {\n      display: block;\n      margin-bottom: 0.25rem;\n    }\n  }\n\n  .directions-cta {}\n\n  .secondary-cta {}\n}\n\n//display the current day as bold\n.hours {\n  .hours-row-today {\n    font-weight: bold;\n  }\n\n  .hours-label {\n    vertical-align: top;\n    padding-right: 10px;\n  }\n\n}\n\n.map {\n  height: 300px;\n}",
-          "Js": "",
-          "ListParamEntries": [],
-          "ModuleId": "9uDFLCmflU",
-          "Scss": "padding: 2rem 0px;\n$spacer: 1rem;\n\n.location-name {\n  font-weight: bold;\n  margin-bottom: 1rem;\n}\n\n//displays phonenumber as button on smaller devices\n.phone-link {\n  @media (min-width: 768px) {\n    display: none;\n  }\n}\n\n.phone-text {\n  @media (max-width: 768px) {\n    display: none;\n  }\n}\n\n.arrow-img {\n    transform: rotate(-180deg);\n    margin-bottom: 10px;\n}\n\n.collapsed .arrow-img {\n    transform: rotate(0deg);\n    margin-bottom: 0px;\n}\n\n.info-header {\n\n}\n\n.hours-header {\n\n}\n\n.primary-open-today {\n  margin-bottom: 1rem;\n}\n\n.secondary-hours-header {\n    margin-top: $spacer;\n}\n\n.secondary-open-today {\n    font-size: 16px;\n    text-decoration: none;\n    color: inherit;\n}\n\n.arrow-img {\n    margin-left: 0.5rem;\n    padding-bottom: 5px;\n}\n\n.ctas {\n  margin-top: 1rem;\n\n  .btn {\n    @media (min-width: 768px) {\n      margin-bottom: 0.25rem;\n\n      \u0026:not(:last-child) {\n        margin-right: 0.25rem;\n      }\n    }\n    @media (max-width: 768px) {\n      display: block;\n      margin-bottom: 0.25rem;\n    }\n  }\n\n  .directions-cta {}\n\n  .secondary-cta {}\n}\n\n//display the current day as bold\n.hours {\n  .hours-row-today {\n    font-weight: bold;\n  }\n\n  .hours-label {\n    vertical-align: top;\n    padding-right: 10px;\n  }\n\n}\n\n.map {\n  height: 300px;\n}"
         },
         {
           "ContentMapEntries": [
@@ -323,9 +182,9 @@
             },
             {
               "ExternalEntityId": "",
-              "InputType": "CONSTANT",
+              "InputType": "",
               "Sink": "headline",
-              "StringValue": "About [[Your Brand]]"
+              "StringValue": "Headline"
             },
             {
               "ExternalEntityId": "",
@@ -349,7 +208,7 @@
           "DefaultScss": "padding: 2rem 0;\n\n.image {\n    width: 100%;\n}\n\n.left-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n    }\n\n    img.image {\n    }\n}\n\n.right-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-start;\n    }\n\n    .headline {\n        margin-bottom: 16px;\n    }\n\n    img.image {\n        display: none; // Hidden on Desktop\n        margin-bottom: 16px;\n    }\n\n    .paragraph {\n      margin-bottom: 1rem;\n    }\n\n    .cta-container {\n        .cta {\n        }\n    }\n}\n\n// Style for mobile\n$grid-breakpoints: (\n  xs: 0,\n  sm: 576px,\n  md: 768px,\n  lg: 992px,\n  xl: 1200px\n) !default;\n\n @media (max-width: map-get($grid-breakpoints, \"md\")) {\n    .left-column {\n        display: none;\n    }\n\n    .right-column {\n        .headline {\n            text-align: center;\n        }\n\n        img.image {\n            display: block;\n        }\n\n        .cta-container {\n            text-align: center;\n        }\n    }\n\n }\n\n",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "HHr7qrmoYR",
+          "ModuleId": "9JDY4AcOHR",
           "Scss": "padding: 2rem 0;\n\n.image {\n    width: 100%;\n}\n\n.left-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n    }\n\n    img.image {\n    }\n}\n\n.right-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-start;\n    }\n\n    .headline {\n        margin-bottom: 16px;\n    }\n\n    img.image {\n        display: none; // Hidden on Desktop\n        margin-bottom: 16px;\n    }\n\n    .paragraph {\n      margin-bottom: 1rem;\n    }\n\n    .cta-container {\n        .cta {\n        }\n    }\n}\n\n// Style for mobile\n$grid-breakpoints: (\n  xs: 0,\n  sm: 576px,\n  md: 768px,\n  lg: 992px,\n  xl: 1200px\n) !default;\n\n @media (max-width: map-get($grid-breakpoints, \"md\")) {\n    .left-column {\n        display: none;\n    }\n\n    .right-column {\n        .headline {\n            text-align: center;\n        }\n\n        img.image {\n            display: block;\n        }\n\n        .cta-container {\n            text-align: center;\n        }\n    }\n\n }\n\n"
         },
         {
@@ -487,78 +346,8 @@
           "DefaultScss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "HurcLrQXYR",
+          "ModuleId": "JJCBxAcTJR",
           "Scss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}"
-        },
-        {
-          "ContentMapEntries": [
-            {
-              "ExternalEntityId": "",
-              "InputType": "CONSTANT",
-              "Sink": "headline",
-              "StringValue": "Frequently Asked Questions"
-            }
-          ],
-          "DefaultScss": "padding: 2rem;\n$spacer: 1rem;\n\n.headline {\n  margin: 0 auto 2*$spacer;\n  text-align: center;\n}\n\n.image {\n  margin: 0 auto 2*$spacer;\n  width: 100%;\n}\n\n.faq {\n  margin-bottom: 2*$spacer;\n\n  .image-wrapper {\n    padding: 0 32px 0 0;\n\n    .image {\n      margin: 0 auto;\n      width: 100%;\n    }\n  }\n\n  .questionText {\n    margin-bottom: $spacer;\n  }\n\n  .answerText {\n    margin-bottom: $spacer;\n  }\n\n  .linkText {\n    color: var(--primary);\n    font-size: 16px;\n    margin-bottom: $spacer;\n  }\n}\n",
-          "Js": "",
-          "ListParamEntries": [
-            {
-              "ContentMapEntries": [
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "SelectedField": [
-                    "none"
-                  ],
-                  "Sink": "image"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "FIELD",
-                  "SelectedField": [
-                    "name"
-                  ],
-                  "Sink": "questionText"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "FIELD",
-                  "SelectedField": [
-                    "answer"
-                  ],
-                  "Sink": "answerText"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "FIELD",
-                  "SelectedField": [
-                    "c_primaryCTA",
-                    "label"
-                  ],
-                  "Sink": "linkText"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "SelectedField": [
-                    "c_primaryCTA",
-                    "link"
-                  ],
-                  "Sink": "linkURL"
-                }
-              ],
-              "ListParamSource": {
-                "AlternateExternalEntityId": "",
-                "EntityTypeName": "location",
-                "RelationshipField": "c_relatedFAQs",
-                "Reviews": false,
-                "SavedSearch": ""
-              },
-              "Sink": "faqList"
-            }
-          ],
-          "ModuleId": "9HgxT5goyU",
-          "Scss": "padding: 2rem;\n$spacer: 1rem;\n\n.headline {\n  margin: 0 auto 2*$spacer;\n  text-align: center;\n}\n\n.image {\n  margin: 0 auto 2*$spacer;\n  width: 100%;\n}\n\n.faq {\n  margin-bottom: 2*$spacer;\n\n  .image-wrapper {\n    padding: 0 32px 0 0;\n\n    .image {\n      margin: 0 auto;\n      width: 100%;\n    }\n  }\n\n  .questionText {\n    margin-bottom: $spacer;\n  }\n\n  .answerText {\n    margin-bottom: $spacer;\n  }\n\n  .linkText {\n    color: var(--primary);\n    font-size: 16px;\n    margin-bottom: $spacer;\n  }\n}\n"
         }
       ],
       "ThemeMapping": {
@@ -650,43 +439,31 @@
     "ModuleInstances": [
       {
         "DisplayNameOverride": "",
-        "Id": "u9D7LCPfYU",
+        "Id": "99rl4kWbJv",
         "Module": "nav_bar",
-        "Version": 46
+        "Version": 45
       },
       {
         "DisplayNameOverride": "",
-        "Id": "JJzWqzmfBv",
+        "Id": "uHrY02FbuU",
         "Module": "announcement_bar_2",
         "Version": 20
       },
       {
         "DisplayNameOverride": "",
-        "Id": "9HrWdzQXlU",
+        "Id": "uHDYx-c89R",
         "Module": "centered_hero",
         "Version": 50
       },
       {
         "DisplayNameOverride": "",
-        "Id": "9uDFLCmflU",
-        "Module": "location_details_with_map_2",
-        "Version": 91
-      },
-      {
-        "DisplayNameOverride": "About Your Brand",
-        "Id": "HHr7qrmoYR",
+        "Id": "9JDY4AcOHR",
         "Module": "about_this_page",
         "Version": 61
       },
       {
         "DisplayNameOverride": "",
-        "Id": "9HgxT5goyU",
-        "Module": "faq_list",
-        "Version": 16
-      },
-      {
-        "DisplayNameOverride": "",
-        "Id": "HurcLrQXYR",
+        "Id": "JJCBxAcTJR",
         "Module": "footer",
         "Version": 52
       }
@@ -698,5 +475,6 @@
     },
     "Theme": "cosmo",
     "ThemeVersion": 17
-  }
+  },
+  "Name": "Product Template"
 }
