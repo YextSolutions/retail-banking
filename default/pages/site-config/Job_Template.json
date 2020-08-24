@@ -1,11 +1,11 @@
 {
-  "$id": "Product Template",
+  "$id": "Job_Template",
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
-  "siteName": "Product Template",
+  "siteName": "Job Template",
   "features": [
     {
       "featureType": "SELF_SERVE_PAGE_SET",
-      "feature": "Product_Template"
+      "feature": "Job_Template"
     }
   ]
 }

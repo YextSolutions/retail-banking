@@ -1,11 +1,11 @@
 {
-  "$id": "FAQ Template",
+  "$id": "Product_Template",
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
-  "siteName": "FAQ Template",
+  "siteName": "Product Template",
   "features": [
     {
       "featureType": "SELF_SERVE_PAGE_SET",
-      "feature": "FAQ_Template"
+      "feature": "Product_Template"
     }
   ]
 }
