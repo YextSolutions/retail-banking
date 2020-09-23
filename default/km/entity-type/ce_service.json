@@ -18,6 +18,10 @@
       "required": true
     },
     {
+      "id": "yext/keywords",
+      "required": false
+    },
+    {
       "id": "c_activeInAnswers",
       "required": false
     },
