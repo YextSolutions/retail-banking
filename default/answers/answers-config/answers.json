@@ -25,6 +25,9 @@
         },
         "name": {
           "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
         }
       },
       "sortBys": [],
@@ -54,6 +57,9 @@
           "textSearch": true
         },
         "name": {
+          "textSearch": true
+        },
+        "keywords": {
           "textSearch": true
         }
       },
@@ -89,6 +95,9 @@
         },
         "name": {
           "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
         }
       },
       "sortBys": [],
@@ -112,7 +121,7 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "c_answersKeywords": {
+        "keywords": {
           "textSearch": true
         },
         "c_productCategory": {
@@ -145,6 +154,9 @@
         },
         "name": {
           "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
         }
       },
       "sortBys": [],
@@ -160,7 +172,7 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "c_answersKeywords": {
+        "keywords": {
           "textSearch": true
         },
         "c_associatedLocations.name": {

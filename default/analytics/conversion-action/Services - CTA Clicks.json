@@ -1,7 +1,7 @@
 {
-  "$id": "1009",
+  "$id": "1011",
   "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
-  "conversionName": "Products - CTA Clicks",
+  "conversionName": "Services - CTA Clicks",
   "conversionType": "PURCHASE",
   "conversionValueType": "SAME",
   "conversionValueAmount": 50.0,
@@ -14,7 +14,7 @@
         "clickType": "CALL_TO_ACTION",
         "entityFilter": {
           "entityTypeIn": [
-            "ce_product"
+            "ce_service"
           ]
         },
         "media": [

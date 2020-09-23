@@ -1,10 +1,10 @@
 {
-  "$id": "1009",
+  "$id": "1004",
   "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
-  "conversionName": "Products - CTA Clicks",
-  "conversionType": "PURCHASE",
+  "conversionName": "Jobs - CTA Clicks",
+  "conversionType": "COST_SAVING_CUSTOMER_SUPPORT",
   "conversionValueType": "SAME",
-  "conversionValueAmount": 50.0,
+  "conversionValueAmount": 5.0,
   "conversionTerm": {
     "startDate": "2020-08-27"
   },
@@ -14,7 +14,7 @@
         "clickType": "CALL_TO_ACTION",
         "entityFilter": {
           "entityTypeIn": [
-            "ce_product"
+            "yext/job"
           ]
         },
         "media": [
@@ -24,7 +24,7 @@
         ]
       }
     ],
-    "completionRate": 50.0
+    "completionRate": 100.0
   },
   "enabled": true
 }
