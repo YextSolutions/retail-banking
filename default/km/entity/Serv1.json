@@ -4,18 +4,7 @@
   "content": {
     "c_activeInAnswers": true,
     "c_photo": {
-      "image": {
-        "height": 256,
-        "thumbnails": [
-          {
-            "height": 196,
-            "url": "http://a.mktgcdn.com/p/BtxQ1WL6yhiVeCKoGC30hDvJvDfVfJU_9UM3n67X2IE/196x196.png",
-            "width": 196
-          }
-        ],
-        "url": "http://a.mktgcdn.com/p/BtxQ1WL6yhiVeCKoGC30hDvJvDfVfJU_9UM3n67X2IE/256x256.png",
-        "width": 256
-      }
+      "url": "https://a.mktgcdn.com/p/kRj3Xqmt-dTAq-r-gAcQ6nlePU9rE4E5zOBEu27EMn0/196x196.png"
     },
     "c_primaryCTA": {
       "label": "Visit Page",
