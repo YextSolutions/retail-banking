@@ -1,3 +1,4 @@
+  
 {
   "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
   "$id": "answers",
@@ -226,8 +227,15 @@
       ],
       [
         "location",
+        "locations",
         "branch",
-        "facility"
+        "branches",
+        "facility",
+        "facilities",
+        "financial professional",
+        "professional",
+        "professionals"
+
       ]
     ]
   },
