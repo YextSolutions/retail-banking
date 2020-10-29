@@ -121,7 +121,7 @@
     },
     "professionals": {
       "entityTypes": [
-        "location"
+        "financialProfessional"
       ],
       "name": "Professionals",
       "savedSearchId": "36292078",

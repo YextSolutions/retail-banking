@@ -28,7 +28,6 @@
       "link": "+1[[mainPhone]]",
       "linkType": "PHONE"
     },
-    "c_type": "PROFESSIONAL",
     "yext/address": {
       "city": "New York",
       "countryCode": "US",
@@ -51,6 +50,6 @@
       "url": "https://www.yext.com"
     }
   },
-  "entityType": "yext/location",
+  "entityType": "yext/financialProfessional",
   "labels": []
 }

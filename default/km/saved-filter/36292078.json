@@ -7,21 +7,12 @@
       {
         "fieldId": "c_activeInAnswers",
         "searchBool": "TRUE"
-      },
-      {
-        "fieldId": "c_type",
-        "filterOption": {
-          "choice": [
-            "PROFESSIONAL"
-          ],
-          "type": "IS"
-        }
       }
     ],
     "entityType": [
       {
         "entityTypeId": [
-          "yext/location"
+          "yext/financialProfessional"
         ],
         "type": "IS"
       }

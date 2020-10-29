@@ -1,0 +1,36 @@
+{
+    "$id": "financialProfessional",
+    "$schema": "https://schema.yext.com/config/km/entity-type-extension/v1",
+    "enabled": true,
+    "entityType": "yext/financialProfessional",
+    "field": [
+      {
+        "id": "c_activeInAnswers",
+        "required": false
+      },
+      {
+        "id": "c_answersKeywords",
+        "required": false
+      },
+      {
+        "id": "c_primaryCTA",
+        "required": false
+      },
+      {
+        "id": "c_professionalHeadshot",
+        "required": false
+      },
+      {
+        "id": "c_relatedFAQs",
+        "required": false
+      },
+      {
+        "id": "c_secondaryCTA",
+        "required": false
+      },
+      {
+        "id": "c_type",
+        "required": false
+      }
+    ]
+  }
