@@ -1,11 +1,11 @@
 {
-  "$id": "Service_Template",
+  "$id": "steadily-retying-wobble-f30cd",
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
-  "siteName": "Service Template",
+  "siteName": "Professional Template",
   "features": [
     {
       "featureType": "SELF_SERVE_PAGE_SET",
-      "feature": "Service_Template"
+      "feature": "rumbling-clad-glitzy-d09a5"
     }
   ]
 }
