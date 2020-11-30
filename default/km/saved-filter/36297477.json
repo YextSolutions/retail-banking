@@ -6,16 +6,11 @@
     "entityField": [
       {
         "fieldId": "c_activeInAnswers",
-        "searchBool": "TRUE"
-      },
-      {
-        "fieldId": "c_type",
         "filterOption": {
           "choice": [
-            "BRANCH",
-            "ATM"
+            "NO"
           ],
-          "type": "IS"
+          "type": "IS_NOT"
         }
       }
     ],

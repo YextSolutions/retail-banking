@@ -2,7 +2,7 @@
   "$id": "Prod1",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
-    "c_activeInAnswers": true,
+    "c_activeInAnswers": "YES",
     "c_photo": {
       "url": "https://a.mktgcdn.com/p/kRj3Xqmt-dTAq-r-gAcQ6nlePU9rE4E5zOBEu27EMn0/196x196.png"
     },
