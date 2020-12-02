@@ -20,7 +20,7 @@
           "textSearch": true
         },
         "keywords": {
-          "textSearch": true
+          "semanticTextSearch": true
         }
       },
       "sortBys": [],
