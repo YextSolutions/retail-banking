@@ -8,18 +8,6 @@
       "link": "https://www.yext.com",
       "linkType": "URL"
     },
-    "c_professionalHeadshot": {
-      "height": 370,
-      "thumbnails": [
-        {
-          "height": 197,
-          "url": "https://a.mktgcdn.com/p/-UqtWBGjHC2rLcKoQDWMn0IgxIdML34svP6UYYRPB_M/196x197.png",
-          "width": 196
-        }
-      ],
-      "url": "https://a.mktgcdn.com/p/-UqtWBGjHC2rLcKoQDWMn0IgxIdML34svP6UYYRPB_M/368x370.png",
-      "width": 368
-    },
     "c_relatedFAQs": [
       "FAQ1"
     ],
@@ -37,6 +25,24 @@
     },
     "yext/addressHidden": false,
     "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "yext/headshot": {
+      "height": 197,
+      "sourceUrl": "http://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/196x197.png",
+      "thumbnails": [
+        {
+          "height": 150,
+          "url": "https://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/149x150.png",
+          "width": 149
+        },
+        {
+          "height": 94,
+          "url": "https://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/93x94.png",
+          "width": 93
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/196x197.png",
+      "width": 196
+    },
     "yext/landingPageUrl": "https://www.yext.com",
     "yext/languages": [
       "French"

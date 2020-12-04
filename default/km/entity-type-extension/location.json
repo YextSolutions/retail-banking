@@ -13,10 +13,6 @@
       "required": false
     },
     {
-      "id": "c_professionalHeadshot",
-      "required": false
-    },
-    {
       "id": "c_relatedFAQs",
       "required": false
     },
