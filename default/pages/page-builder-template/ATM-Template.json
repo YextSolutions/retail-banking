@@ -1,5 +1,5 @@
 {
-  "$id": "ATM_Template",
+  "$id": "ATM-Template",
   "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
   "PageSetType": "TEMPLATE",
   "EntityTypeName": "atm",

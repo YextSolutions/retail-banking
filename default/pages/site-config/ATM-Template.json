@@ -1,11 +1,11 @@
 {
-  "$id": "ATM_Template",
+  "$id": "ATM-Template",
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
   "siteName": "ATM Template",
   "features": [
     {
       "featureType": "SELF_SERVE_PAGE_SET",
-      "feature": "ATM_Template"
+      "feature": "ATM-Template"
     }
   ]
 }
