@@ -19,6 +19,6 @@
     "yext/landingPageUrl": "https://www.yext.com",
     "yext/name": "Checking Account"
   },
-  "entityType": "ce_product",
+  "entityType": "ce_financialProduct",
   "labels": []
 }

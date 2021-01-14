@@ -1,7 +1,7 @@
 {
   "$id": "65749030",
   "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
-  "name": "Pages - Products",
+  "name": "Pages - Financial Products",
   "filter": {
     "entityField": [
       {
@@ -17,7 +17,7 @@
     "entityType": [
       {
         "entityTypeId": [
-          "yext/product"
+          "ce_financialProduct"
         ],
         "type": "IS"
       }

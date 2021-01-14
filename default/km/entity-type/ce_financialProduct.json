@@ -1,8 +1,8 @@
 {
-  "$id": "ce_product",
+  "$id": "ce_financialProduct",
   "$schema": "https://schema.yext.com/config/km/entity-type/v1",
   "description": "",
-  "displayName": "Product",
+  "displayName": "Financial Product",
   "enabled": true,
   "field": [
     {
@@ -62,5 +62,5 @@
       "required": false
     }
   ],
-  "pluralDisplayName": "Products"
+  "pluralDisplayName": "Financial Products"
 }
