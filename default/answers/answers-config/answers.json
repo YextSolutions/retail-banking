@@ -80,8 +80,7 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "mainPhone": {
           "directAnswer": true
@@ -130,8 +129,7 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "languages": {
           "facet": true,
@@ -195,12 +193,6 @@
         "phrase": "call",
         "synonyms": [
           "main phone"
-        ]
-      },
-      {
-        "phrase": "branch",
-        "synonyms": [
-          "location"
         ]
       },
       {
