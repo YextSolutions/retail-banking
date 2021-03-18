@@ -37,8 +37,7 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "c_department": {
           "textSearch": true
@@ -68,6 +67,13 @@
       "useSynonyms": "ALL_SYNONYMS"
     },
     "locations": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "mainPhone"
+          ]
+        }
+      },
       "entityTypes": [
         "atm",
         "location"
@@ -81,9 +87,6 @@
         },
         "builtin.location": {
           "nlpFilter": true
-        },
-        "mainPhone": {
-          "directAnswer": true
         },
         "name": {
           "textSearch": true
@@ -172,14 +175,40 @@
       "source": "KNOWLEDGE_MANAGER"
     }
   },
-  "autocomplete": {
-    "disablePopularQueries": false,
-    "hardcodedPrompts": [
+  "querySuggestions": {
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
       "Open checking account",
       "Services offered",
-      "Branch near me",
-      "Mortgage lender near me"
-    ]
+      "Branches near me",
+      "Mortgage lender near me",
+      "open jobs near me"
+    ],
+    "verticalPrompts": {
+      "faqs": [
+        "[[name]]"
+      ],
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]",
+        "Locations near me"
+      ],
+      "products": [
+        "[[name]]"
+      ],
+      "jobs": [
+        "[[name]]",
+        "open jobs near me"
+      ],
+      "services": [
+        "[[name]]"  
+      ],
+      "professionals": [
+        "Professionals near [[address.city]]",
+        "Professionals near [[address.region]]",
+        "Professionals near me"
+      ]
+    }
   },
   "synonyms": {
     "oneWay": [
@@ -233,5 +262,6 @@
       ]
     ]
   },
-  "localizations": {}
+  "localizations": {},
+  "additionalSearchablePlaces": []
 }
