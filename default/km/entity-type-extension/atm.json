@@ -17,7 +17,7 @@
       "required": false
     },
     {
-      "id": "c_type",
+      "id": "c_locationType",
       "required": false
     }
   ]

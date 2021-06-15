@@ -165,7 +165,8 @@
           "textSearch": true
         },
         "c_serviceCategory": {
-          "textSearch": true
+          "facet": true,
+          "nlpFilter": true
         },
         "name": {
           "textSearch": true
@@ -182,7 +183,7 @@
       "Services offered",
       "Branches near me",
       "Mortgage lender near me",
-      "open jobs near me"
+      "Open jobs near me"
     ],
     "verticalPrompts": {
       "faqs": [
@@ -198,7 +199,7 @@
       ],
       "jobs": [
         "[[name]]",
-        "open jobs near me"
+        "Open jobs near me"
       ],
       "services": [
         "[[name]]"  

@@ -17,10 +17,6 @@
       "required": false
     },
     {
-      "id": "c_relatedFAQs",
-      "required": false
-    },
-    {
       "id": "c_secondaryCTA",
       "required": false
     }

@@ -56,10 +56,6 @@
     {
       "id": "yext/entityId",
       "required": true
-    },
-    {
-      "id": "yext/websiteUrl",
-      "required": false
     }
   ],
   "pluralDisplayName": "Financial Products"
