@@ -13,16 +13,16 @@
       "link": "+1[[mainPhone]]",
       "linkType": "PHONE"
     },
-    "yext/address": {
+    "address": {
       "city": "New York",
       "countryCode": "US",
       "line1": "61 9th Ave",
       "postalCode": "10011",
       "region": "NY"
     },
-    "yext/addressHidden": false,
-    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "yext/headshot": {
+    "addressHidden": false,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "headshot": {
       "height": 197,
       "sourceUrl": "http://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/196x197.png",
       "thumbnails": [
@@ -40,8 +40,8 @@
       "url": "https://a.mktgcdn.com/p-sandbox/8h-OMa3FEmJHvJRDpEeiIqUvjCLgJFIS4B5sbAIIhhs/196x197.png",
       "width": 196
     },
-    "yext/landingPageUrl": "https://www.yext.com",
-    "yext/hours": {
+    "landingPageUrl": "https://www.yext.com",
+    "hours": {
       "friday": {
         "isClosed": false,
         "openIntervals": [
@@ -94,18 +94,18 @@
         ]
       }
     },
-    "yext/languages": [
+    "languages": [
       "French"
     ],
-    "yext/mainPhone": "+17574060122",
-    "yext/name": "Sam Jones",
-    "yext/timezone": "America/New_York",
-    "yext/websiteUrl": {
+    "mainPhone": "+17574060122",
+    "name": "Sam Jones",
+    "timezone": "America/New_York",
+    "websiteUrl": {
       "displayUrl": "https://www.yext.com",
       "preferDisplayUrl": false,
       "url": "https://www.yext.com"
     }
   },
-  "entityType": "yext/financialProfessional",
+  "entityType": "financialProfessional",
   "labels": []
 }

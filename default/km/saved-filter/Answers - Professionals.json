@@ -17,7 +17,7 @@
     "entityType": [
       {
         "entityTypeId": [
-          "yext/financialProfessional"
+          "financialProfessional"
         ],
         "type": "IS"
       }

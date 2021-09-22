@@ -4,14 +4,14 @@
   "content": {
     "c_activeInAnswers": "YES",
     "c_locationType": "ATM",
-    "yext/address": {
+    "address": {
       "city": "New York",
       "countryCode": "US",
       "line1": "61 9th Ave",
       "postalCode": "10011",
       "region": "NY"
     },
-    "yext/hours": {
+    "hours": {
       "friday": {
         "isClosed": false,
         "openIntervals": [
@@ -76,14 +76,14 @@
         ]
       }
     },
-    "yext/name": "ATM",
-    "yext/timezone": "America/New_York",
-    "yext/websiteUrl": {
+    "name": "ATM",
+    "timezone": "America/New_York",
+    "websiteUrl": {
       "displayUrl": "https://www.yext.com",
       "preferDisplayUrl": false,
       "url": "https://www.yext.com"
     }
   },
-  "entityType": "yext/atm",
+  "entityType": "atm",
   "labels": []
 }
