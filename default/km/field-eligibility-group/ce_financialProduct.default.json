@@ -1,0 +1,17 @@
+{
+  "$id": "ce_financialProduct.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Financial Product-default",
+  "entityType": "ce_financialProduct",
+  "fields": [
+    "landingPageUrl",
+    "description",
+    "keywords",
+    "c_activeInAnswers",
+    "c_photo",
+    "c_price",
+    "c_primaryCTA",
+    "c_productCategory",
+    "c_secondaryCTA"
+  ]
+}
