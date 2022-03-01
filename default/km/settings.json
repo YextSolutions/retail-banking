@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schema.yext.com/config/km/settings/v1",
+  "primaryEntityType": "location",
+  "entityTypeSettings": [
+    {
+      "entityType": "atm",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_financialProduct",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_service",
+      "disabled": false
+    },
+    {
+      "entityType": "faq",
+      "disabled": false
+    },
+    {
+      "entityType": "financialProfessional",
+      "disabled": false
+    },
+    {
+      "entityType": "job",
+      "disabled": false
+    },
+    {
+      "entityType": "location",
+      "disabled": false
+    }
+  ]
+} 
