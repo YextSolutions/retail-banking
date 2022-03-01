@@ -1,11 +1,10 @@
 {
-  "$id": "job.default",
+  "$id": "retailBankingSolution_faq",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Job-default",
-  "entityType": "job",
+  "name": "retailBankingSolution_FAQ",
+  "entityType": "faq",
   "fields": [
     "c_activeInAnswers",
-    "c_department",
     "c_primaryCTA",
     "c_secondaryCTA"
   ]

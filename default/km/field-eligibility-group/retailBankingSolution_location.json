@@ -1,7 +1,7 @@
 {
-  "$id": "location.default",
+  "$id": "retailBankingSolution_location",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Location-default",
+  "name": "retailBankingSolution-Location",
   "entityType": "location",
   "fields": [
     "c_primaryCTA",

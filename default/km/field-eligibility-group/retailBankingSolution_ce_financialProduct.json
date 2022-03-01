@@ -1,7 +1,7 @@
 {
-  "$id": "ce_financialProduct.default",
+  "$id": "retailBankingSolution_ce_financialProduct",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Financial Product-default",
+  "name": "retailBankingSolution_Financial Product",
   "entityType": "ce_financialProduct",
   "fields": [
     "landingPageUrl",
