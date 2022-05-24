@@ -1,4 +1,3 @@
-  
 {
   "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
   "$id": "answers",
@@ -16,13 +15,18 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "name": {
-          "semanticTextSearch": true
-        },
         "keywords": {
           "textSearch": true
+        },
+        "name": {
+          "semanticTextSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "faqs",
+        "question"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -48,13 +52,20 @@
         "hiringOrganization": {
           "textSearch": true
         },
-        "name": {
+        "keywords": {
           "textSearch": true
         },
-        "keywords": {
+        "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalBias": -0.1,
+      "semanticVerticalIntents": [
+        "jobs",
+        "careers",
+        "open jobs"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -62,6 +73,7 @@
       "apiKey": "REPLACE_API_KEY",
       "cx": "REPLACE_CX_KEY",
       "name": "Links",
+      "semanticVerticalIntents": [],
       "siteRestricted": false,
       "source": "GOOGLE_CSE",
       "useSynonyms": "ALL_SYNONYMS"
@@ -71,7 +83,8 @@
         "fieldValues": {
           "eligibleFields": [
             "mainPhone"
-          ]
+          ],
+          "predictionMode": "CLASSIFIER"
         }
       },
       "entityTypes": [
@@ -88,13 +101,20 @@
         "builtin.location": {
           "nlpFilter": true
         },
-        "name": {
+        "keywords": {
           "textSearch": true
         },
-        "keywords": {
+        "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "atms near me",
+        "branches",
+        "branches near me"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -108,16 +128,22 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "keywords": {
-          "textSearch": true
-        },
         "c_productCategory": {
           "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
         },
         "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "products",
+        "credit card",
+        "debit card"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -134,17 +160,25 @@
         "builtin.location": {
           "nlpFilter": true
         },
+        "keywords": {
+          "textSearch": true
+        },
         "languages": {
           "facet": true,
           "nlpFilter": true
         },
         "name": {
           "textSearch": true
-        },
-        "keywords": {
-          "textSearch": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "professionals",
+        "advisors",
+        "mlo",
+        "officers"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -158,9 +192,6 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "keywords": {
-          "textSearch": true
-        },
         "c_associatedLocations.name": {
           "textSearch": true
         },
@@ -168,47 +199,20 @@
           "facet": true,
           "nlpFilter": true
         },
+        "keywords": {
+          "textSearch": true
+        },
         "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "services",
+        "accounts"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
-    }
-  },
-  "querySuggestions": {
-    "popularQueriesBlacklistedTerms": [],
-    "universalPrompts": [
-      "Open checking account",
-      "Services offered",
-      "Branches near me",
-      "Mortgage lender near me",
-      "Open jobs near me"
-    ],
-    "verticalPrompts": {
-      "faqs": [
-        "[[name]]"
-      ],
-      "locations": [
-        "Locations near [[address.city]]",
-        "Locations near [[address.region]]",
-        "Locations near me"
-      ],
-      "products": [
-        "[[name]]"
-      ],
-      "jobs": [
-        "[[name]]",
-        "Open jobs near me"
-      ],
-      "services": [
-        "[[name]]"  
-      ],
-      "professionals": [
-        "Professionals near [[address.city]]",
-        "Professionals near [[address.region]]",
-        "Professionals near me"
-      ]
     }
   },
   "synonyms": {
@@ -259,10 +263,46 @@
         "financial professional",
         "professional",
         "professionals"
-
       ]
     ]
   },
   "localizations": {},
-  "additionalSearchablePlaces": []
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "Open checking account",
+      "Services offered",
+      "Branches near me",
+      "Mortgage lender near me",
+      "Open jobs near me"
+    ],
+    "verticalPrompts": {
+      "faqs": [
+        "[[name]]"
+      ],
+      "jobs": [
+        "[[name]]",
+        "Open jobs near me"
+      ],
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]",
+        "Locations near me"
+      ],
+      "products": [
+        "[[name]]"
+      ],
+      "professionals": [
+        "Professionals near [[address.city]]",
+        "Professionals near [[address.region]]",
+        "Professionals near me"
+      ],
+      "services": [
+        "[[name]]"
+      ]
+    }
+  }
 }
